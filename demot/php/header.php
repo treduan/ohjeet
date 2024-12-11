@@ -6,7 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Kuva</h1>
-    <img src="./images/mandala.png" alt="Mandala">
-</body>
-</html>
+    <header>
+        <h1>Opitaan PHP:tä</h1>
+</header>    

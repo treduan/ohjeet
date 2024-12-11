@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formdemo.css">
+</head>
+<body>
+    <header>
+        <h1>Ilmottautumislomake</h1>
+    </header>
+    <main>
+        <form>
+            <label for="username">Username: </label>
+            <input type="text" name="username" for="username" placeholder="Username here" autofocus required>
+            <input type="number" name="participants" min="1" max="5">
+            <input type="email" name="email" required>
+            <input type="password" name="password">
+            <input type="checkbox" name="maths" value="on" checked>
+            <label for="walking">Kävellen</label>
+            <input type = "radio" name = "transport" value = "walking" id="walking">
+            <label for="public">Julkisilla</label>
+            <input type = "radio" name = "transport" value = "public" id="public">
+            <input type="file" name="poster" accept="image/png, image/jpeg">
+            <input type="date" name="date">
+            <textarea name="teksti" cols="15" rows="8"></textarea>
+            <select name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            <input type="reset" value="Tyhjennä lomake">  
+            <input type="submit" name="submit" value="Lähetä">
+        </form>
+    </main>
+</body>
+</html>
